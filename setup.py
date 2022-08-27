@@ -8,5 +8,5 @@ setup (
     license='MIT',
     author='Gray Alien Ventures',
     author_email='info@intp.io',
-    
+    packages=find_packages(),
 )

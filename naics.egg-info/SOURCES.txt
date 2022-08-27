@@ -1,0 +1,6 @@
+README.md
+setup.py
+naics.egg-info/PKG-INFO
+naics.egg-info/SOURCES.txt
+naics.egg-info/dependency_links.txt
+naics.egg-info/top_level.txt
