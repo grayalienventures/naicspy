@@ -10,12 +10,20 @@ setup (
     author='Gray Alien Ventures',
     author_email='info@intp.io',
     packages=find_packages(),
-    # classifiers=[
-    #     "Programming Language :: Python :: 3",
-    #     "License :: OSI Approved :: MIT License",
-    #     "Operating System :: OS Independent",
-    # ],                                      # Information to filter the project on PyPi website
-    py_modules=["naics"],             # Name of the python package
-    package_dir={'':'naics/src'},     # Directory of the source code of the package
-    install_requires=[]                     # Install other dependencies if any
+    classifiers=[
+        "naics",
+        "NAICS",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent"
+    ],        
+    keywords=[
+        "naics",
+        "NAICS",
+        "industry"
+    ],  
+    py_modules=["naics"],
+    package_dir={'':'naics/src'},
+    install_requires=[]
 )
