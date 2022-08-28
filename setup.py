@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup (
     name='naics',
-    version='1.0',
+    version='1.0.1',
     description="Utility tools for the 2022 NAICS industry classification standards.",
     long_description=long_description,
     long_description_content_type="text/markdown",
