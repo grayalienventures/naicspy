@@ -10,7 +10,7 @@ pip install naics
 ## Usage
 Get industry by NAICS code.
 ```py
-from naics.naics import industry
+from naics import industry
 print(industry(11))
 ```
 
