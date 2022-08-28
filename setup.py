@@ -1,10 +1,16 @@
 from html.entities import name2codepoint
 from setuptools import setup, find_packages
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 
 setup (
     name='naics',
     version='1.0',
+    description="Utility tools for the 2022 NAICS industry classification standards.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url='https://github.com/grayalienventures/naicspy',
     license='MIT',
     author='Gray Alien Ventures',
